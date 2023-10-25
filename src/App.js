@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import DateComponent from './component/DateComponent';
+import ChildComponent from './component/ChildComponent';
+import CoffeesComponent from './component/CoffeesComponent';
 
 function App() {
+  // all javascript world
+  
+ 
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <CoffeesComponent/>
+       <ChildComponent />
+       <DateComponent />
+       
+        
       </header>
     </div>
   );
